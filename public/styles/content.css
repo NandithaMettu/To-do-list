@@ -1,0 +1,83 @@
+body{
+    background-color: lightpink;
+    
+}
+.nav-item{
+    color: cornflowerblue;
+}
+#check:checked + label {
+    text-decoration: line-through;
+    
+}
+  .container1{
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 400px;
+    box-shadow: 5px 5px 15px -5px rgb(80, 80, 185);
+    border-radius: 5%;
+    
+    
+
+    
+    
+
+  }
+.header{
+    display:flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+.btn{
+    background-color: cornflowerblue;
+    color:white;
+}
+.title{
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-shadow: 2px 2px 4px white;
+ 
+}
+
+.addbutton{
+    background-color: white;
+    border-radius: 10%;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+    box-shadow: cornflowerblue;
+    
+}
+.item{
+    background-color: white;
+    
+    border-color: cornflowerblue;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+
+.middle{
+    width:300px;
+    padding-top: 30px;
+    text-align: left;
+
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+#label{
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+h1{
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-shadow: 2px 2px 4px white;
+    font-weight: bolder;
+}
